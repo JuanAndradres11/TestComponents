@@ -1,0 +1,4 @@
+// Jest Snapshot v1, for InputField.test.tsx
+exports[`Input field updates correctly 1`] = `
+<input placeholder="Search..." value="Test" />
+`;

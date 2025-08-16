@@ -1,0 +1,4 @@
+// Jest Snapshot v1, for Button.test.tsx
+exports[`Button click triggers correctly 1`] = `
+<button>Submit</button>
+`;

@@ -14,30 +14,31 @@ Includes a Storybook setup for interactive previews and documentation.
 
 ## 📁 Folder Structure
 
-```
-
 my-components/
-src/
-components/
-Button/
-Button.tsx
-Button.stories.tsx
-**tests**/
-Button.test.tsx
-InputField/
-InputField.tsx
-InputField.stories.tsx
-**tests**/
-InputField.test.tsx
-DataTable/
-DataTable.tsx
-DataTable.stories.tsx
-**tests**/
-DataTable.test.tsx
-.storybook/
-package.json
-README.md
-yarn.lock / package-lock.json
+├─ src/
+│  └─ components/
+│     ├─ Button/
+│     │  ├─ Button.tsx
+│     │  ├─ Button.stories.tsx
+│     │  └─ __tests__/
+│     │     └─ Button.test.tsx
+│     │
+│     ├─ InputField/
+│     │  ├─ InputField.tsx
+│     │  ├─ InputField.stories.tsx
+│     │  └─ __tests__/
+│     │     └─ InputField.test.tsx
+│     │
+│     └─ DataTable/
+│        ├─ DataTable.tsx
+│        ├─ DataTable.stories.tsx
+│        └─ __tests__/
+│           └─ DataTable.test.tsx
+│
+├─ .storybook/
+├─ package.json
+├─ README.md
+└─ yarn.lock
 
 ````
 

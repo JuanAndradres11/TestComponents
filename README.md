@@ -1,54 +1,53 @@
-# **README.md**
-
 ```markdown
 # My Components Library
 
 A small React component library with three reusable components:  
-- `ButtonComponent`  
-- `InputFieldComponent`  
-- `DataTableComponent`  
+- `Button`  
+- `InputField`  
+- `DataTable`  
 
 This project includes a Storybook setup for interactive previews and documentation.
 
 ---
 
-## **Folder Structure**
+## 📁 Folder Structure
 
 ```
+
 my-components/
 ├─ src/
 │  ├─ components/                   # Reusable UI components
 │  │  ├─ Button/                    # Button folder
 │  │  │  ├─ Button.tsx
 │  │  │  ├─ Button.stories.tsx
-│  │  │  └─ __tests__/
+│  │  │  └─ **tests**/
 │  │  │      └─ Button.test.tsx
 │  │  │
 │  │  ├─ InputField/                # InputField folder
 │  │  │  ├─ InputField.tsx
 │  │  │  ├─ InputField.stories.tsx
-│  │  │  └─ __tests__/
+│  │  │  └─ **tests**/
 │  │  │      └─ InputField.test.tsx
 │  │  │
 │  │  └─ DataTable/                 # DataTable folder
 │  │      ├─ DataTable.tsx
 │  │      ├─ DataTable.stories.tsx
-│  │      └─ __tests__/
+│  │      └─ **tests**/
 │  │          └─ DataTable.test.tsx
 │
 ├─ .storybook/                      # Storybook config
 ├─ package.json
-└─ README.md
-
-
+├─ README.md
+└─ yarn.lock / package-lock.json
 
 ````
 
 ---
 
-## **Installation / Setup**
+## ⚡ Installation / Setup
 
 1. Clone the repo:
+
 ```bash
 git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
@@ -80,18 +79,21 @@ yarn build-storybook
 
 ---
 
-## **Usage / Demo**
+## 🎨 Usage / Demo
 
 ### Button
 
 ```tsx
-<ButtonComponent label="Click Me" onClick={() => alert('Clicked!')} />
+<Button
+  label="Click Me"
+  onClick={() => alert('Clicked!')}
+/>
 ```
 
 ### Input Field
 
 ```tsx
-<InputFieldComponent
+<InputField
   placeholder="Enter text"
   value={value}
   onChange={(e) => setValue(e.target.value)}
@@ -101,7 +103,7 @@ yarn build-storybook
 ### DataTable
 
 ```tsx
-<DataTableComponent
+<DataTable
   columns={['id', 'name', 'age']}
   data={[
     { id: 1, name: 'Alice', age: 25 },
@@ -113,7 +115,7 @@ yarn build-storybook
 
 ---
 
-## **Storybook Preview**
+## 🌐 Storybook Preview
 
 [View Live Storybook](https://<your-vercel-url>.vercel.app)
 
@@ -121,48 +123,35 @@ yarn build-storybook
 
 ---
 
-## **Screenshots / GIFs (Optional)**
+## 🖼 Screenshots / GIFs (Optional)
 
 You can add screenshots or GIFs here to showcase interactive states. Example:
 
-![Button Component](./assets/button-demo.png)
-![DataTable Component](./assets/datatable-demo.gif)
+![Button Demo](./assets/button-demo.png)
+![DataTable Demo](./assets/datatable-demo.gif)
 
 > Place your images inside an `assets/` folder at the project root and reference them like above.
 
 ---
 
-## **Approach / Notes**
+## 📝 Approach / Notes
 
 * Components are designed to be **reusable and customizable** via props.
 * Storybook is used for **interactive documentation and demo purposes**.
-* `DataTableComponent` supports selectable rows and dynamic data.
-* `InputFieldComponent` supports validation and error messages.
+* `DataTable` supports selectable rows and dynamic data.
+* `InputField` supports validation and error messages.
 
 ---
 
-## **Contributing**
+## 🤝 Contributing
 
 * Fork the repo and create a branch for your features/fixes.
 * Submit a pull request with clear description.
 
 ---
 
-## **License**
+## ⚖ License
 
 MIT License
 
-````
-
----
-
-### ✅ **Where to add screenshots / GIFs**
-- Create a folder in your project root called `assets/`.
-- Add your images/GIFs there.  
-- Reference them in README like:  
-```markdown
-![Description](./assets/image-name.png)
-````
-
-
-If you want, I can also **draft some small example GIF captions and layout** that would make your README look extra polished for submission. Do you want me to do that?
+```

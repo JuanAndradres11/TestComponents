@@ -1,3 +1,5 @@
+
+
 ```markdown
 # My Components Library
 
@@ -6,7 +8,7 @@ A small React component library with three reusable components:
 - `InputField`  
 - `DataTable`  
 
-This project includes a Storybook setup for interactive previews and documentation.
+Includes a Storybook setup for interactive previews and documentation.
 
 ---
 
@@ -15,32 +17,31 @@ This project includes a Storybook setup for interactive previews and documentati
 ```
 
 my-components/
-├─ src/
-│  ├─ components/                   # Reusable UI components
-│  │  ├─ Button/                    # Button folder
-│  │  │  ├─ Button.tsx
-│  │  │  ├─ Button.stories.tsx
-│  │  │  └─ **tests**/
-│  │  │      └─ Button.test.tsx
-│  │  │
-│  │  ├─ InputField/                # InputField folder
-│  │  │  ├─ InputField.tsx
-│  │  │  ├─ InputField.stories.tsx
-│  │  │  └─ **tests**/
-│  │  │      └─ InputField.test.tsx
-│  │  │
-│  │  └─ DataTable/                 # DataTable folder
-│  │      ├─ DataTable.tsx
-│  │      ├─ DataTable.stories.tsx
-│  │      └─ **tests**/
-│  │          └─ DataTable.test.tsx
-│
-├─ .storybook/                      # Storybook config
-├─ package.json
-├─ README.md
-└─ yarn.lock / package-lock.json
+src/
+components/
+Button/
+Button.tsx
+Button.stories.tsx
+**tests**/
+Button.test.tsx
+InputField/
+InputField.tsx
+InputField.stories.tsx
+**tests**/
+InputField.test.tsx
+DataTable/
+DataTable.tsx
+DataTable.stories.tsx
+**tests**/
+DataTable.test.tsx
+.storybook/
+package.json
+README.md
+yarn.lock / package-lock.json
 
 ````
+
+> Each component has its own folder with the component code, Storybook stories, and optional tests.
 
 ---
 
@@ -148,10 +149,7 @@ You can add screenshots or GIFs here to showcase interactive states. Example:
 * Fork the repo and create a branch for your features/fixes.
 * Submit a pull request with clear description.
 
----
+--- 
 
-## ⚖ License
-
-MIT License
-
+If you want, I can also **suggest example captions and layout for GIFs/screenshots** so your README looks visually polished for submission. Do you want me to do that?
 ```

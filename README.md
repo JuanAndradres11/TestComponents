@@ -118,20 +118,9 @@ yarn build-storybook
 
 ## 🌐 Storybook Preview
 
-[View Live Storybook](https://<your-vercel-url>.vercel.app)
+[View Live Storybook][(https://test-components-z7y1.vercel.app/)]
 
 > All interactive states are included: hover, click, row selection, and input validation.
-
----
-
-## 🖼 Screenshots / GIFs (Optional)
-
-You can add screenshots or GIFs here to showcase interactive states. Example:
-
-![Button Demo](./assets/button-demo.png)
-![DataTable Demo](./assets/datatable-demo.gif)
-
-> Place your images inside an `assets/` folder at the project root and reference them like above.
 
 ---
 

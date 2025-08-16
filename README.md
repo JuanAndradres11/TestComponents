@@ -15,6 +15,30 @@ This project includes a Storybook setup for interactive previews and documentati
 ## **Folder Structure**
 
 ```
+my-components/
+├─ src/
+│  ├─ components/                   # Reusable UI components
+│  │  ├─ Button/                    # Button folder
+│  │  │  ├─ Button.tsx
+│  │  │  ├─ Button.stories.tsx
+│  │  │  └─ __tests__/
+│  │  │      └─ Button.test.tsx
+│  │  │
+│  │  ├─ InputField/                # InputField folder
+│  │  │  ├─ InputField.tsx
+│  │  │  ├─ InputField.stories.tsx
+│  │  │  └─ __tests__/
+│  │  │      └─ InputField.test.tsx
+│  │  │
+│  │  └─ DataTable/                 # DataTable folder
+│  │      ├─ DataTable.tsx
+│  │      ├─ DataTable.stories.tsx
+│  │      └─ __tests__/
+│  │          └─ DataTable.test.tsx
+│
+├─ .storybook/                      # Storybook config
+├─ package.json
+└─ README.md
 
 
 
